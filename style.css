@@ -9,7 +9,7 @@
   --font-body: 'courier new', monospace;
 }
 
-/* RESET Y BASE */
+
 * {
   margin: 0;
   padding: 0;
@@ -284,7 +284,7 @@ section h3 i {
   background: #1e7e34;
 }
 
-/* FOOTER */
+
 footer {
   text-align: center;
   padding: 25px;
@@ -294,7 +294,7 @@ footer {
   border-top: 3px solid var(--primary-color);
 }
 
-/* RESPONSIVE DESIGN */
+
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
