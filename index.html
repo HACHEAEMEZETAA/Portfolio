@@ -1,95 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamza Akdi | Ciberseguridad & Sistemas</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
     <header id="inicio">
-        <div class="header-content">
-            <h1>Hamza Akdi</h1>
-            <h2>Estudiante de ASIR & Especialista en Ciberseguridad y Administración de Sistemas</h2>
-            <p>Experiencia práctica en el aseguramiento de entornos, administración de servidores (Windows Server/Linux) y auditoría forense.</p>
-            <a href="#proyectos" class="cta-button">Ver Proyectos de Seguridad y Sistemas</a>
-        </div>
+      <div class="header-content">
+        <h1>HAMZA AKDI</h1>
+        <h2>
+          Estudiante de ASIR & Especialista en Ciberseguridad y Administración
+          de Sistemas
+        </h2>
+
+        <p>
+          Experiencia práctica en el aseguramiento de entornos, administración
+          de servidores (Windows Server/Linux) y auditoría forense.
+        </p>
+
+        <a href="#proyectos" class="cta-button"
+          ><i class="fas fa-eye"></i> Ver Proyectos de Seguridad y Sistemas</a
+        >
+      </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#sobre-mi">Sobre Mí</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
     </nav>
 
     <main>
-        <section id="proyectos" class="container">
-            <h3>📂 Proyectos Clave (Pruebas de Concepto)</h3>
-            <div class="project-grid">
-                
-                <article class="project-card">
-                    <h4>Configuración de Active Directory en Windows Server</h4>
-                    <p>Implementación de un DC, políticas de grupo (GPO) y gestión de usuarios y recursos utilizando **Windows Server 2022** y **VMware**.</p>
-                    <div class="tags"><span>Windows Server</span><span>Active Directory</span><span>VMware</span></div>
-                    <a href="[ENLACE A GITHUB O DOCUMENTACIÓN]" target="_blank" class="project-link"><i class="fas fa-code"></i> Ver Repositorio</a>
-                </article>
-
-                <article class="project-card">
-                    <h4>Análisis Forense Digital de Incidente Simulado</h4>
-                    <p>Análisis de imágenes de disco y memoria para identificar actividad maliciosa utilizando **Autopsy**, **Volatility** y cálculo de **hashes (MD5/SHA-1)**.</p>
-                    <div class="tags"><span>Autopsy</span><span>Volatility</span><span>Análisis Forense</span></div>
-                    <a href="[ENLACE A GITHUB O INFORME PDF]" target="_blank" class="project-link"><i class="fas fa-file-pdf"></i> Ver Informe</a>
-                </article>
-
-                </div>
-        </section>
-        
-        <section id="sobre-mi" class="container">
-            <h3>🧑‍💻 Sobre Hamza Akdi</h3>
-            <div class="about-content">
-                <div class="text-content">
-                    <p>Soy un estudiante de ASIR enfocado en llevar la teoría de la **Ciberseguridad y Administración de Sistemas** a la práctica con proyectos reales (PoC). Mi objetivo es construir entornos seguros y optimizados.</p>
-                    
-                    <h4>Habilidades Técnicas Destacadas</h4>
-                    <ul class="skills-list">
-                        <li>**Sistemas:** Windows Server (AD), Linux, Virtualización (VMware, VirtualBox).</li>
-                        <li>**Seguridad:** Análisis Forense (Autopsy, Volatility), Auditoría de Logs, CompTIA Security+.</li>
-                        <li>**Networking:** Routing, VLANs, Firewalls, Servidores Web (Apache, Nginx).</li>
-                        <li>**Bases de Datos:** Oracle 12c, SQL Server.</li>
-                    </ul>
-
-                    <h4>Experiencia Transferible</h4>
-                    <p>Mi experiencia previa como Coordinador y Encargado me proporcionó sólidas habilidades de **gestión de equipos, organización y resolución de problemas** que aplico directamente a la planificación y ejecución de proyectos de IT.</p>
-                </div>
-                <div class="image-placeholder">
-                    
-                </div>
+      <section id="proyectos" class="container">
+        <h3><i class="fas fa-project-diagram"></i> Proyectos Destacados</h3>
+      
+          <article class="project-card">
+            <h4>Análisis Forense Digital de Incidente Simulado</h4>
+            <p>
+              Análisis de imágenes de disco y memoria para identificar actividad
+              maliciosa utilizando Autopsy, Volatility y cálculo de hashes
+              (MD5/SHA-1).
+            </p>
+            <div class="tags">
+              <span>Autopsy</span>
+              <span>Volatility</span>
+              <span>Análisis Forense</span>
             </div>
-        </section>
-        
-        <section id="contacto" class="container">
-            <h3>📧 Contacto</h3>
-            <p>Estoy disponible para nuevos proyectos y oportunidades laborales. Conéctate conmigo o envíame un mensaje.</p>
-            
-            <div class="contact-links">
-                <a href="https://www.linkedin.com/in/hakdi" target="_blank" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="[TU ENLACE DE GITHUB]" target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
-                <a href="mailto:hmzakdi10@gmail.com" class="social-link"><i class="fas fa-envelope"></i> Email</a>
-                <a href="[ENLACE A TU CV PDF]" target="_blank" class="social-link download-cv"><i class="fas fa-download"></i> Descargar CV (PDF)</a>
+            <a
+              href="https://github.com/HACHEAEMEZETAA/An-lisis-forense-Oracle12c"
+              target="_blank"
+              class="project-link"
+              ><i class="fas fa-file-pdf"></i> Ver Informe</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section id="formacion" class="container">
+        <h3>
+          <i class="fas fa-graduation-cap"></i> Formación y Certificaciones
+        </h3>
+        <div class="project-grid">
+          <article class="project-card">
+            <h4>Administración de Sistemas Informáticos en Red (ASIR)</h4>
+            <p>
+              Formación enfocada en la gestión de redes, servicios de Internet y
+              la seguridad de la infraestructura IT. (Prometeo-ByThePower)
+            </p>
+            <div class="tags">
+              <span>ASIR</span>
+              <span>Networking</span>
+              <span>Administración</span>
             </div>
-            
-            </section>
+          </article>
+
+          <article class="project-card">
+            <h4>Certificaciones CompTIA & Másteres</h4>
+            <p>
+              Ampliando mis conocimientos en seguridad haciendo estos
+              certificados.
+            </p>
+            <div class="tags">
+              <span>CompTIA Network+</span>
+              <span>CompTIA Security+</span>
+              <span>CompTIA PenTest+</span>
+              <span>Máster Ciberseguridad/IA</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="container">
+        <h3><i class="fas fa-user-shield"></i> Sobre Hamza Akdi</h3>
+        <div class="about-content">
+          <div class="image-placeholder">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D5603AQF7eKegjpZCGw/profile-displayphoto-scale_400_400/B56ZoMtTIrKIAg-/0/1761149793375?e=1765411200&v=beta&t=tMgf3OAU7AMdXeplsV8saE7buGQYItvFYskthCNmBrI"
+              alt="Foto de Perfil de Hamza Akdi"
+              class="profile-photo"
+            />
+          </div>
+          <div class="text-content">
+            <p>
+              Soy un estudiante de ASIR enfocado en llevar la teoría de la
+              Ciberseguridad y Administración de Sistemas a la práctica con
+              proyectos reales (PoC). Mi objetivo es construir entornos seguros
+              y optimizados.
+            </p>
+            <br />
+            <h4>Experiencia Transferible y Soft Skills</h4>
+            <p>
+              Mi experiencia previa como coordinador y encargado me proporcionó
+              sólidas habilidades de gestión de equipos, organización y
+              resolución de problemas que aplico directamente a la planificación
+              y ejecución de proyectos de IT.
+              <br />
+              Otras habilidades clave: Atención al público, trabajo en equipo y
+              aprendizaje autónomo.
+            </p>
+          </div>
+        </div>
+
+        <section id="skills-section">
+          <h4>🛠️ Habilidades Técnicas Destacadas</h4>
+          <div class="skills-container">
+            <div class="skills-block">
+              <h5>Sistemas</h5>
+              <ul>
+                <li>Windows Server (Active Directory)</li>
+                <li>Linux</li>
+                <li>Virtualización (VMware, VirtualBox)</li>
+                <li>Aplicaciones SAP</li>
+              </ul>
+            </div>
+
+            <div class="skills-block">
+              <h5>Seguridad & Forense</h5>
+              <ul>
+                <li>Análisis Forense (Autopsy, Volatility, FTK Imager)</li>
+                <li>Auditoría de Logs (Windows, Oracle, Kaspersky)</li>
+                <li>CompTIA Security+, CompTIA PenTest+</li>
+                <li>Cálculo de Hashes (MD5, SHA-1)</li>
+              </ul>
+            </div>
+
+            <div class="skills-block">
+              <h5>Networking & BB.DD.</h5>
+              <ul>
+                <li>Routing, VLANs, Firewalls</li>
+                <li>Servidores Web (Apache, Nginx)</li>
+                <li>Monitorización (Zabbix)</li>
+                <li>Oracle 12c, SQL Server, MySQL, PostgreSQL</li>
+              </ul>
+            </div>
+
+            <div class="skills-block">
+              <h5>Idiomas</h5>
+              <ul>
+                <li>Español (Nativo)</li>
+                <li>Inglés (Intermedio)</li>
+                <li>Árabe (Básico)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="contacto" class="container">
+        <h3><i class="fas fa-paper-plane"></i> Contacto</h3>
+
+        <p class="contact-pitch">
+          Estoy disponible para nuevos proyectos y roles en Administración de
+          Sistemas y Ciberseguridad.
+          <br />
+          No dudes en contactarme a través de LinkedIn, GitHub o por correo
+          electrónico.
+        </p>
+
+        <div class="contact-links">
+          <a
+            href="https://www.linkedin.com/in/hakdi"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a
+            href="https://github.com/HACHEAEMEZETAA"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a href="mailto:hmzakdi10@gmail.com" class="social-link"
+            ><i class="fas fa-envelope"></i> Email</a
+          >
+          <a
+            href="[AQUÍ VA EL ENLACE A TU CV PDF]"
+            target="_blank"
+            class="social-link download-cv"
+            ><i class="fas fa-download"></i> Descargar CV (PDF)</a
+          >
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Hamza Akdi. Desplegado con <a href="https://render.com" target="_blank">Render</a>.</p>
+      <p>
+        &copy; 2025 Hamza Akdi. Desarrollado con HTML/CSS/JS. Desplegado en
+        <a href="https://render.com" target="_blank">Render</a>.
+      </p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
